@@ -21,7 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          sudo apt-get install -y jpegoptim pngquant jpegtran
+          sudo apt-get install -y jpegoptim pngquant libjpeg-turbo-progs
 
       - name: Clean up JPEG images
         run: |
