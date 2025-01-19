@@ -3,6 +3,7 @@ name: Optimize Images
 on:
   push:
     paths:
+      - ".github/workflows/optimize-images.yml"
       - "assets/images/**"
 
 jobs:
@@ -28,11 +29,11 @@ jobs:
 
       - name: Optimize JPEG images
         run: |
-          find assets/images -name "*.jpg" -exec jpegoptim --max=85 {} \;
+          find assets/images -name "*.jpg" -exec jpegoptim --max=90 {} \;
 
       - name: Optimize PNG images
         run: |
-          find assets/images -name "*.png" -exec pngquant --quality=65-80 --ext .png --force {} \;
+          find assets/images -name "*.png" -exec pngquant --quality=80-90 --ext .png --force {} \;
 
       - name: Commit and push changes
         run: |
