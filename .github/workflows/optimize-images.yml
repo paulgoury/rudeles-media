@@ -1,0 +1,41 @@
+name: Optimize Images
+
+on:
+  push:
+    paths:
+      - "assets/images/**"
+
+jobs:
+  Optimize:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20.x"
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get install -y jpegoptim pngquant
+
+      - name: Optimize JPEG images
+        run: |
+          find assets/images -name "*.jpg" -exec jpegoptim --max=85 {} \;
+
+      - name: Optimize PNG images
+        run: |
+          find assets/images -name "*.png" -exec pngquant --quality=65-80 --ext .png --force {} \;
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add assets/images || true
+          git diff --cached --quiet || git commit -m "Optimize images"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
