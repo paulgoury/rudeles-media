@@ -35,6 +35,11 @@ jobs:
         run: |
           find assets/images -name "*.png" -exec pngquant --quality=80-90 --ext .png --force {} \;
 
+      - name: Duplicate and resize images
+        run: |
+          mkdir -p assets/images/smallBackgrounds
+          find assets/images -name "*.jpg" -exec sh -c 'convert "$1" -resize 20 assets/images/smallBackgrounds/$(basename "$1")' _ {} \;
+
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions'
