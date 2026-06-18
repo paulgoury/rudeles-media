@@ -17,6 +17,7 @@ interface ImagesBackgrounds {
   vineyardPageParcel: string;
   vineyardPageStrain: string;
   vineyardPageWeather: string;
+  visits: string;
 }
 
 interface ImagesSubSectionPhilosophy {
@@ -57,7 +58,8 @@ export const Images: Types = {
     vineyardPageVineyard: new URL('./backgrounds/vineyardPageVineyard.jpg', import.meta.url).href,
     vineyardPageParcel: new URL('./backgrounds/vineyardPageParcel.jpg', import.meta.url).href,
     vineyardPageStrain: new URL('./backgrounds/vineyardPageStrain.jpg', import.meta.url).href,
-    vineyardPageWeather: new URL('./backgrounds/vineyardPageWeather.jpg', import.meta.url).href
+    vineyardPageWeather: new URL('./backgrounds/vineyardPageWeather.jpg', import.meta.url).href,
+    visits: new URL('./backgrounds/visits.jpg', import.meta.url).href
   },
   subSectionStory: {
     passionForTheVineyard: new URL('./others/passionForTheVineyard.png', import.meta.url).href,
