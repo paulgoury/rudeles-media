@@ -91,34 +91,34 @@ export const Images: Types = {
   },
   subSectionVisits: {
     rudelesEssence: [
-      new URL('./sliders/visits/rudelesEssence/a.png', import.meta.url).href,
-      new URL('./sliders/visits/rudelesEssence/b.png', import.meta.url).href,
-      new URL('./sliders/visits/rudelesEssence/c.png', import.meta.url).href,
-      new URL('./sliders/visits/rudelesEssence/d.png', import.meta.url).href,
-      new URL('./sliders/visits/rudelesEssence/e.png', import.meta.url).href,
-      new URL('./sliders/visits/rudelesEssence/f.png', import.meta.url).href,
-      new URL('./sliders/visits/rudelesEssence/g.png', import.meta.url).href
+      new URL('./sliders/visits/rudelesEssence/a.jpg', import.meta.url).href,
+      new URL('./sliders/visits/rudelesEssence/b.jpg', import.meta.url).href,
+      new URL('./sliders/visits/rudelesEssence/c.jpg', import.meta.url).href,
+      new URL('./sliders/visits/rudelesEssence/d.jpg', import.meta.url).href,
+      new URL('./sliders/visits/rudelesEssence/e.jpg', import.meta.url).href,
+      new URL('./sliders/visits/rudelesEssence/f.jpg', import.meta.url).href,
+      new URL('./sliders/visits/rudelesEssence/g.jpg', import.meta.url).href
     ],
     barrelsAndFlavours: [
-      new URL('./sliders/visits/barrelsAndFlavours/a.png', import.meta.url).href,
-      new URL('./sliders/visits/barrelsAndFlavours/b.png', import.meta.url).href,
-      new URL('./sliders/visits/barrelsAndFlavours/c.png', import.meta.url).href,
-      new URL('./sliders/visits/barrelsAndFlavours/d.png', import.meta.url).href,
-      new URL('./sliders/visits/barrelsAndFlavours/e.png', import.meta.url).href
+      new URL('./sliders/visits/barrelsAndFlavours/a.jpg', import.meta.url).href,
+      new URL('./sliders/visits/barrelsAndFlavours/b.jpg', import.meta.url).href,
+      new URL('./sliders/visits/barrelsAndFlavours/c.jpg', import.meta.url).href,
+      new URL('./sliders/visits/barrelsAndFlavours/d.jpg', import.meta.url).href,
+      new URL('./sliders/visits/barrelsAndFlavours/e.jpg', import.meta.url).href
     ],
     amongVinesAndClayVats: [
-      new URL('./sliders/visits/amongVinesAndClayVats/a.png', import.meta.url).href,
-      new URL('./sliders/visits/amongVinesAndClayVats/b.png', import.meta.url).href,
-      new URL('./sliders/visits/amongVinesAndClayVats/c.png', import.meta.url).href,
-      new URL('./sliders/visits/amongVinesAndClayVats/d.png', import.meta.url).href,
-      new URL('./sliders/visits/amongVinesAndClayVats/e.png', import.meta.url).href,
-      new URL('./sliders/visits/amongVinesAndClayVats/f.png', import.meta.url).href,
-      new URL('./sliders/visits/amongVinesAndClayVats/g.png', import.meta.url).href,
-      new URL('./sliders/visits/amongVinesAndClayVats/h.png', import.meta.url).href,
-      new URL('./sliders/visits/amongVinesAndClayVats/i.png', import.meta.url).href,
-      new URL('./sliders/visits/amongVinesAndClayVats/j.png', import.meta.url).href,
-      new URL('./sliders/visits/amongVinesAndClayVats/k.png', import.meta.url).href,
-      new URL('./sliders/visits/amongVinesAndClayVats/l.png', import.meta.url).href
+      new URL('./sliders/visits/amongVinesAndClayVats/a.jpg', import.meta.url).href,
+      new URL('./sliders/visits/amongVinesAndClayVats/b.jpg', import.meta.url).href,
+      new URL('./sliders/visits/amongVinesAndClayVats/c.jpg', import.meta.url).href,
+      new URL('./sliders/visits/amongVinesAndClayVats/d.jpg', import.meta.url).href,
+      new URL('./sliders/visits/amongVinesAndClayVats/e.jpg', import.meta.url).href,
+      new URL('./sliders/visits/amongVinesAndClayVats/f.jpg', import.meta.url).href,
+      new URL('./sliders/visits/amongVinesAndClayVats/g.jpg', import.meta.url).href,
+      new URL('./sliders/visits/amongVinesAndClayVats/h.jpg', import.meta.url).href,
+      new URL('./sliders/visits/amongVinesAndClayVats/i.jpg', import.meta.url).href,
+      new URL('./sliders/visits/amongVinesAndClayVats/j.jpg', import.meta.url).href,
+      new URL('./sliders/visits/amongVinesAndClayVats/k.jpg', import.meta.url).href,
+      new URL('./sliders/visits/amongVinesAndClayVats/l.jpg', import.meta.url).href
     ]
   }
 };
