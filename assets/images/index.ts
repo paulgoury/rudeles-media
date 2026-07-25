@@ -25,6 +25,12 @@ interface ImagesSubSectionPhilosophy {
   ourSecret: string;
 }
 
+interface ImagesSubSectionVisits {
+  rudelesEssence: string[];
+  barrelsAndFlavours: string[];
+  amongVinesAndClayVats: string[];
+}
+
 interface ImagesBottles {
   cepasJovenes: string;
   cerroElCuberillo: string;
@@ -43,6 +49,7 @@ interface Types {
   subSectionStory: ImagesSubSectionStory;
   subSectionPhilosophy: ImagesSubSectionPhilosophy;
   subSectionWines: ImagesBottles;
+  subSectionVisits: ImagesSubSectionVisits;
 }
 
 export const Images: Types = {
@@ -81,5 +88,37 @@ export const Images: Types = {
     rudeles23Albillo: new URL('./bottles/rudeles23Albillo.png', import.meta.url).href,
     aire: new URL('./bottles/aire.png', import.meta.url).href,
     rudeles23Rosado: new URL('./bottles/rudeles23Rosado.png', import.meta.url).href
+  },
+  subSectionVisits: {
+    rudelesEssence: [
+      new URL('./sliders/visits/rudelesEssence/a.png', import.meta.url).href,
+      new URL('./sliders/visits/rudelesEssence/b.png', import.meta.url).href,
+      new URL('./sliders/visits/rudelesEssence/c.png', import.meta.url).href,
+      new URL('./sliders/visits/rudelesEssence/d.png', import.meta.url).href,
+      new URL('./sliders/visits/rudelesEssence/e.png', import.meta.url).href,
+      new URL('./sliders/visits/rudelesEssence/f.png', import.meta.url).href,
+      new URL('./sliders/visits/rudelesEssence/g.png', import.meta.url).href
+    ],
+    barrelsAndFlavours: [
+      new URL('./sliders/visits/barrelsAndFlavours/a.png', import.meta.url).href,
+      new URL('./sliders/visits/barrelsAndFlavours/b.png', import.meta.url).href,
+      new URL('./sliders/visits/barrelsAndFlavours/c.png', import.meta.url).href,
+      new URL('./sliders/visits/barrelsAndFlavours/d.png', import.meta.url).href,
+      new URL('./sliders/visits/barrelsAndFlavours/e.png', import.meta.url).href
+    ],
+    amongVinesAndClayVats: [
+      new URL('./sliders/visits/amongVinesAndClayVats/a.png', import.meta.url).href,
+      new URL('./sliders/visits/amongVinesAndClayVats/b.png', import.meta.url).href,
+      new URL('./sliders/visits/amongVinesAndClayVats/c.png', import.meta.url).href,
+      new URL('./sliders/visits/amongVinesAndClayVats/d.png', import.meta.url).href,
+      new URL('./sliders/visits/amongVinesAndClayVats/e.png', import.meta.url).href,
+      new URL('./sliders/visits/amongVinesAndClayVats/f.png', import.meta.url).href,
+      new URL('./sliders/visits/amongVinesAndClayVats/g.png', import.meta.url).href,
+      new URL('./sliders/visits/amongVinesAndClayVats/h.png', import.meta.url).href,
+      new URL('./sliders/visits/amongVinesAndClayVats/i.png', import.meta.url).href,
+      new URL('./sliders/visits/amongVinesAndClayVats/j.png', import.meta.url).href,
+      new URL('./sliders/visits/amongVinesAndClayVats/k.png', import.meta.url).href,
+      new URL('./sliders/visits/amongVinesAndClayVats/l.png', import.meta.url).href
+    ]
   }
 };
