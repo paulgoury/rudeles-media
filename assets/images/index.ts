@@ -44,6 +44,7 @@ interface ImagesBottles {
 
 interface Types {
   logo: string;
+  logoError: string;
   logoAndTextRudeles: string;
   backgrounds: ImagesBackgrounds;
   subSectionStory: ImagesSubSectionStory;
@@ -54,6 +55,7 @@ interface Types {
 
 export const Images: Types = {
   logo: new URL('./others/logo.png', import.meta.url).href,
+  logoError: new URL('./others/logo-error.png', import.meta.url).href,
   logoAndTextRudeles: new URL('./others/logoAndTextRudeles.png', import.meta.url).href,
   backgrounds: {
     home: new URL('./backgrounds/home.jpg', import.meta.url).href,
